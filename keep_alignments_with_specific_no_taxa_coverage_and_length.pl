@@ -1,4 +1,4 @@
-#!/usr/bin/env/perl
+#!/usr/bin/env perl
 
 #Keep only metapartition files with a user specified threshold for no. of species, alignment length, and proportion of missing data.
 #Filter further based on total number of ambiguous sites. Here threshold less than 30%.
