@@ -1,4 +1,4 @@
-#!/usr/bin/env/perl
+#!/usr/bin/env perl
 
 #Keep only metapartition files with a user specified threshold for no. of species and number of amino acid sites.
 #Filter further based on total number of ambiguous sites. Here threshold 30%.
