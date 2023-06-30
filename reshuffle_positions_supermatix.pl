@@ -1,4 +1,4 @@
-#!usr/bin/env perl
+#!/usr/bin/env perl
 
 ###############################################################################################################
 # Reshuffle positions within different partitions in a supermatrix. Input supermatrix should be in 
