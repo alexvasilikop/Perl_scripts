@@ -1,4 +1,4 @@
-#!/usr/bin/env/perl
+#!/usr/bin/env perl
 
 #Calculate range of lengths for aligned COGs in a non-interleaved format. Calculate proportion of gaps in the alignment 
 #and average length for each aligned COG
