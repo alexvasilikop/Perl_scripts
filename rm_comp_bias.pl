@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+#removes fasta files from directory with high degree of relative composition variability (>0.33)
+
 use strict;
 use warnings;
 
