@@ -17,11 +17,8 @@ foreach (@files){
 	while(my $line=<$fh>){
 		
 		chomp $line;
-		
-		
 		if ($line=~m/^>.+/){
 		++$no_species;	
-			
 	    }
     }
     
@@ -29,7 +26,6 @@ foreach (@files){
 		close $fh;
 		system "mv $_ /home/av/Desktop/Dytiscoidea_paper/09b_Remove_alignments_with_less_than_3_taxa/aa/removed_genes/";
 		}
-
 }
 			
 		
