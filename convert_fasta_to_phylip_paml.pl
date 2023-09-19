@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 ##############################################################################################################################################
-#Convert fasta supermatrix in phylip format for paml (aa alignment). Ambiguous characters (X, N) are replaced with ?
+#Convert fasta supermatrix in phylip format for paml (aa alignment). Ambiguous characters and gaps (X, -) are replaced with ?
 ###############################################################################################################################################
 
 use strict;
