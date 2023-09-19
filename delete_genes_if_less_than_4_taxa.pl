@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+#move fasta files with less than 4 species in a different directory
+
 use strict;
 use warnings;
 
