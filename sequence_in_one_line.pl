@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+#read input fasta files and make files in non-interleaved format (fasta)
+
 use strict;
 use warnings;
 
