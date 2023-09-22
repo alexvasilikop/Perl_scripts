@@ -60,7 +60,6 @@ for(my $i=0; $i<$length;++$i){
 	      #print $new_hash_reduced{$header}, "\n";
 	      
 	      }
-	 
 	   }
 }
 
@@ -70,9 +69,6 @@ foreach my $key (sort (keys %new_hash_reduced)){
 	
 	print {$fh_out} "$key","\n", $new_hash_reduced{$key}, "\n";
 }
- 
-
-####################################################################################################################################
 
 ##################################################################################################################
 
@@ -107,6 +103,3 @@ sub supermatrix_hash{
    #return length and hash of arrays
    return (\%hash_fasta, $length, $no_species);
 }
-
-
-
