@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#Keep only metapartition files with a user specified threshold for no. of species and number of amino acid sites.
+#Keep only metapartition/gene files (fasta format) with a user specified threshold for no. of species and number of amino acid sites.
 #Filter further based on total number of ambiguous sites. Here threshold 30%.
 
 use strict;
