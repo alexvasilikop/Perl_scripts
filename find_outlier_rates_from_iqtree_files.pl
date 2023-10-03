@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
 
 ###########################################################################################################################################################
-#Extract rates for partitions from iqtree output file. Calculate median quartile 1 and 3 for collection of rate values
+# Extract rates for partitions from iqtree output file. Calculate median quartile 1 and 3 for collection of rate values
+# Remove fasta files with outlier rates from working directory
 ###########################################################################################################################################################
 
 use strict;
