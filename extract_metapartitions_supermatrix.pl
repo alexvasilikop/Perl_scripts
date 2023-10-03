@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
 
 ###############################################################################################################
-# Extract metapartitions from supermatrix using the charset file. Delete absent taxa in each metapartition
+# Extract metapartitions from supermatrix (in fasta format) into separate fasta files using the charset file. Delete 
+# absent taxa in each metapartition
 # Author: A.Vasilikopoulos September 2017
 ##############################################################################################################
 
