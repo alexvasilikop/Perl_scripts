@@ -10,7 +10,7 @@ use strict;
 use warnings;
 use Getopt::Long qw(GetOptions);
 
-#Define default options for reshuffling
+#Define default options for subsampling
 my $input_supermatrix='supermatrix.fasta';
 my $threshold = 0.90;
 my $outfile='supermatrix_new.fas';
